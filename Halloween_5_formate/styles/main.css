@@ -1,0 +1,61 @@
+
+body{
+    width: 800px;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    left: 20%;
+    font-family: sans-serif;
+   
+   
+}
+
+html {
+   
+    background-image: url(/images/bats.gif);
+    background-repeat: repeat both;
+}
+
+header{
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+main{
+    padding: 5px;
+}
+footer{
+    border-top: 3px solid black;
+}
+header{
+    background: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+  }
+  footer {
+    background: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+  }
+img{
+    float: left;
+}
+.head{
+ margin-left:120px;
+}
+
+.main_content::first-letter{
+    font-size: 50px;
+}
+a{
+    color: orange;
+}
+a:hover{
+    color: green;
+}
+li{
+    padding: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    
+}
+
